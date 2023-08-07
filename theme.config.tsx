@@ -10,6 +10,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Endgame',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Endgame'
+    }
+  }
 }
 
 export default config
