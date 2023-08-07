@@ -1,0 +1,9 @@
+{
+  "index": "Preamble",
+  "---": {
+    "type": "separator"
+  },
+  "1_early_game": "Early Game",
+  "2_mid_game": "Mid Game",
+  "3_end_game": "End Game"
+}
