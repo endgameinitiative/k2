@@ -1,5 +1,8 @@
 {
   "index": "Overview",
+  "---": {
+    "type": "separator"
+  },
   "0_owockis-vision": "Owocki-Vision",
   "1_early_game": "Early Game",
   "2_mid_game": "Mid Game",
