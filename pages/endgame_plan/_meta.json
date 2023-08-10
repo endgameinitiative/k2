@@ -5,6 +5,9 @@
   },
   "1_early_game": "Early Game",
   "goals": "We are here ▶",
+  "---": {
+    "type": "separator"
+  },
   "2_mid_game": "Mid Game",
   "3_end_game": "End Game"
 }
