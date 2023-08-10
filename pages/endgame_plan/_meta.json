@@ -3,11 +3,11 @@
   "---": {
     "type": "separator"
   },
-  "1_early_game": "Early Game",
+  "1_early_game": "Early Game (2017-2023)",
   "goals": "We are here ▶",
   "---": {
     "type": "separator"
   },
-  "2_mid_game": "Mid Game",
-  "3_end_game": "End Game"
+  "2_mid_game": "Mid Game (2023 - 2025)",
+  "3_end_game": "End Game (2025+)"
 }
