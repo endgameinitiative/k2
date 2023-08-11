@@ -4,10 +4,16 @@
     "type": "separator"
   },
   "1_early_game": "Early Game (2017-2023)",
-  "goals": "We are here ▶",
+  "wearehere": "We are here → ",
+  "whygitcoin": "Why the world needs Gitcoin ↗ ",
+  "wherewearegoing": "Where we are going ⤴ ",
   "---": {
     "type": "separator"
   },
   "2_mid_game": "Mid Game (2023 - 2025)",
-  "3_end_game": "End Game (2025+)"
+  "3_end_game": "End Game (2025+)",
+  "---": {
+    "type": "separator"
+  },
+  "getinvolved": "Get Involved (𝟯,𝟯)"
 }
