@@ -106,22 +106,27 @@ Allo Flywheel:                     Allo Flywheel
 ## Passport: also a billion $$$ opportunity
 
 <Callout type="info">
-You can listen to some of our research [here](https://www.youtube.com/watch?v=PlDOjDu-mpU&list=PLF5CNzrKS9sqRxKaMqlh1tjWMCIBLBGkI).  Or you can play with Passport [here](http://passport.gitcoin.co/)
+You can listen to some of our research on sybil resistence [here](https://www.youtube.com/watch?v=PlDOjDu-mpU&list=PLF5CNzrKS9sqRxKaMqlh1tjWMCIBLBGkI).  Or you can play with Passport[here](http://passport.gitcoin.co/)
 </Callout>
 
-Basically the opportunity is to do for sybil resistence what twilio did for SMS or SendGrid did for SMTP.
+Basically the opportunity for Gitcoin is to do for sybil resistence what twilio did for SMS or SendGrid did for SMTP.  Abstract the solutions to all of the hairy problems behind an API + bootstrap an ecosystem of developers that leverage the superpowers of the Passport API.
 
-Because Gitcoin Grants has always needed sybil resistence in order to function, Gitcoin has put a lot of work into the sybil resistence ecosystem, by way of integrating with top providers like: Idena, BrightID, Proof Of Humanity, etc.  But Gitcoin has never wanted to rely on one sybil resistence provider, so it has built a tool based on a plurality of providers.  There are dozens of "stamps" integrated into Gitcoin Passport, enabling sybil resistence to come from many places.  The end result is that Passport is like Kirby from Super Smash Bros: it can swallow the powers of everyone else.
+Because Gitcoin Grants has always needed sybil resistence in order to function, Gitcoin has put a lot of work into the sybil resistence ecosystem, by way of integrating with top providers like: Idena, BrightID, Proof Of Humanity, etc.  But Gitcoin has never wanted to rely on one sybil resistence provider, so it has built a tool based on a plurality of providers.  There are dozens of "stamps" integrated into Gitcoin Passport, enabling sybil resistence to come from many places.  The end result is that Passport is like Kirby from Super Smash Bros: it can inherit the powers of everyone else.
+
+It's important to remember that the relationship between Gitcoin Passport and these providers is symbiotic.  Many of these providers got their first set of users from integrating into Gitcoin Passport, and Gitcoin Passport derives its sybil resistence from these providers.  The ecosystem grows together.
 
 The billion $$$ opportunity on Passport looks like this:
 
 1. Bootstrap Gitcoin Passport with Gitcoin Grants.
-1. The TAM for identity mechanisms is everyone on planet earth.
+2. The TAM for identity mechanisms is everyone on planet earth.
     - Sybil resistence opens up many meaningful new use cases: UBI, Quadratic Funding, Airdrops from governments, democratic DAOs, etc.
-2. Our digital identities should not be monopolized by a single provider and/or people will want to benefit from a plurality of providers.
-3. Integrate with Gitcoin Passport & get sybil resistence in a couple lines of code.
+    - Our digital identities should not be monopolized by a single provider and/or people will want to benefit from a plurality of providers.
+3. Abstract the solutions to all of the hairy problems behind an API.  Allow devs to integrate with Gitcoin Passport & get sybil resistence in a couple lines of code.
+4. Bootstrap an ecosystem of developers that leverage the superpowers of Passport.
 
-Along the way, it will be important to 
+This is a hard problem space.  There is a reason why sybil resistence is not addressed or solved so far.  So when we say "Abstract the solutions to all of the hairy problems behind an API", we are really hand waving away a lot of important things.
+
+Those things are:
 1. preserve privacy
 2. preserve user sovereignty
 3. avoid plutocracy
@@ -131,6 +136,7 @@ Along the way, it will be important to
 7. embrace the infinite evolutionary nature of sybil attacks.
 8. make the system systemically defensible
     - this means keeping the total size of the Gitcoin Passport supported economy below the total cost of forgery of all of the passports.
+
 We've put a lot of thought into how to architect this system & you can learn more by listening to [this devcon talk](https://www.youtube.com/watch?v=TRoO5fD7TI4)
 
 More on the Passport opportunity here: https://gov.gitcoin.co/t/passport-is-our-aws/10995
