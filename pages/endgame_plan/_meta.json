@@ -4,11 +4,11 @@
     "type": "separator"
   },
   "1_early_game": "Early Game (2017-2023)",
-  "stateofgitcoin": "The State of Gitcoin (𝟥,𝟥)",
+  "stateofgitcoin": "The State of Gitcoin ←(𝟥,𝟥)",
   "2_mid_game": "Mid Game (2023 - 2025)",
   "3_end_game": "End Game (2025+)",
   "---": {
     "type": "separator"
   },
-  "getinvolved": "Get Involved (𝟯,𝟯)"
+  "getinvolved": "Get Involved (𝟯,𝟯)→"
 }
