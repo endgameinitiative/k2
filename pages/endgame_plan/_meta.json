@@ -4,12 +4,7 @@
     "type": "separator"
   },
   "1_early_game": "Early Game (2017-2023)",
-  "wearehere": "We are here → ",
-  "whygitcoin": "Why the world needs Gitcoin ↗ ",
-  "wherewearegoing": "Where we are going ⤴ ",
-  "---": {
-    "type": "separator"
-  },
+  "stateofgitcoin": "The State of Gitcoin (𝟥,𝟥)",
   "2_mid_game": "Mid Game (2023 - 2025)",
   "3_end_game": "End Game (2025+)",
   "---": {
