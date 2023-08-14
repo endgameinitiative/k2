@@ -3,5 +3,9 @@
   "---": {
     "type": "separator"
   },
-  "endgame_plan": "EndGame Plan"
+  "endgame_plan": "EndGame Plan",
+  "---": {
+    "type": "separator"
+  },
+  "research": "Research"
 }
