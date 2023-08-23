@@ -1,7 +1,7 @@
 {
-  "name": "Owocki-endgame",
+  "name": "K2-endgame",
   "version": "0.0.1",
-  "description": "Owocki endgame",
+  "description": "K2 endgame",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
