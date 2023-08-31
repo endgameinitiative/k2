@@ -8,6 +8,8 @@ import { Callout } from "nextra/components";
 
 # Sub-DAOs
 
+## Problem Statement
+
 As Gitcoin has evolved towards more decentralization, there has been more pressure put on GTC governance.  From 2021 - 2023, as Gitcoin Grants was broken into 4 different protocols/products, this created a lot of complexity and need for context in order to govern Gitcoin.
 
 As a result, https://gov.gitcoin.co became a place where there was a clear division between stewards that were core contributors to Gitcoin, and stewards who were outside community contributors.  Over time, the latter contributors were not able to contribute.
@@ -15,6 +17,8 @@ As a result, https://gov.gitcoin.co became a place where there was a clear divis
 After Gitcoin has gotten it's product market fit, it may be wise to reform governance in order to push the complexity and context further to the edges.
 
 This SubDAO proposal is a solution to these problems.  
+
+## Proposed Solution
 
 The SubDAO proposal is meant to solve the following problems:
 
@@ -32,13 +36,15 @@ Instead of trying to have a global monolith that has high cohesion across the en
 
 The subDAO model has the following types of subDAOs.  Each of the subDAOs will follow the same budgeting process that workstreams use today.:
 
-## Mother DAO
+## Types of SubDAOs
+
+### Mother DAO
 
 Gitcoin is the Mother DAO.  Governance of Gitcoin = governance of it's protocols, and before ossification (financials, ecosystem development, roadmap).
 
 Primary Gov Question: “which subDAOs do we fund with how much?”
 
-## Product DAOs
+### Product DAOs
 
 ProductDAOs ship protocols or products.
 
@@ -53,18 +59,21 @@ These tokens provide governance rights within the protocols they represent:
 1. $PASSPORT and $GTC may be used to create utility or governance rights in Passport Protocol.
 1. $PGN and $GTC may be used to create utility or governance rights in Allo Protocol.
 
-
 GTC = 1 $ALLO + $PASSPORT + $PGN
 
-## Service DAOs
+### Service DAOs
 
 Provide services to the rest of the political economy.
 
-## Skill DAOs
+### Skill DAOs
 
 Provide skill development or services to the rest of the political economy.
 
-## SubDAO Weighting
+### SubDAO Weighting
+
+> w = GTC locked + revenue generated
+
+Each product or service DAO has a *weight* determined by this formula. The weight (or expected future weight) governs how much resources go to the subDAO
 
 ## Visual Overview
 
@@ -77,4 +86,23 @@ One contributor can be a member of multiple subDAOs.
 The subDAOs can be thought of as a matrix organization, insofar as a contributor may be a part of a multiple subDAOs at once, and have different expectations for each subDAO.  A contributor who does marketing for Passport, for example, may be responsible to the Passport subDAO's governance structure to deliver products, and be responsible to the marketing subDAO to provide marketing alignment, skill development, or other marketing-centric services to the marketing subDAO.
 
 ![](./img/matrix.png)
+
+## Progressive Decentralization
+
+The subDAO model provides a framework for socialware work to be moved from Gitcoin-centric to a more community centeric world.
+
+In the future, there may be multiple subDAOs that serve similar purposes.  For example, 
+1. a eth oss PGF dao might organizae eth oss QF rounds + will own the decision of who is accepted into that round 
+1. a climate PGF dao might organizae climate QF rounds + will own the decision of who is accepted into that round (shell or not)
+1. a DEI PGF dao might organizae DEI QF rounds + will own the decision of who is accepted into that round (shell or not)
+1. and so on..
+
+### SubDAOs at the start
+
+![](./img/now.png)
+
+### SubDAOs a few years in
+
+![](./img/then.png)
+
 
