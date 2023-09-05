@@ -52,20 +52,34 @@ We have done analysis to review and experiment with a number of mechanisms to de
 Passport is a leading identity and reputaitona aggregator focused on empowering communities with the ability to protect what matters from sybil attacks, bots and bad actors. Passport aggregates web3 and web2 identity information to create a "unique humanity" score. Amongst those primitives is the ability to stake GTC and attest to ones unique humanity. That staked GTC can then be slashed if a user is found to be a bad actor. Early [slashing mechanism design](https://github.com/andytudhope/slashing-engine) is informing future approaches to how we will revamp the staking experience. The goal is to ensure users who are unable to verify themselves as unique using the existing tools have an alternative that ensure some risk is paired with the reward (ie, slashing staked GTC for bad actors while offering good actors a relatively low barrier to entry)
 
 ### Gitcoin Allo
-Gitcoin Allo is the allocation protocol that enables communities to permissionlessly fund that matters to them. This protocol is particularly important for those who want to integrate Quadratic Fudning (or direct grats funding, milestone based payemnts, the core project regsitry, etc) into their dApps. In this case Allo is comprised of three core primitives:
+Gitcoin Allo is the allocation protocol that enables communities to permissionlessly fund that matters to them. This protocol is particularly important for those who want to integrate Quadratic Fudning (or direct grants funding, milestone based payemnts, the core project regsitry, etc) into their dApps. In this case Allo is comprised of three core primitives:
 - Project Registry
 - Funding mechanisms
 - Payout strategies
 It is in these three areas that value is delivered for consumers of Allo. It is also in these areas that the Allo team is exploring where an appropriate value caputre mecahnism may reside. To date, the most straight forward answer is in collecitng a % of the funding flowing through the protocol. Obsentisbly a "fee switch" for the Allocation protocol.
 
 ### Gitcoin Grants Stack
-Grants Stack is a dApp built to utilize aspect of Allo, and Passport with teh goal of enabling communities to fund their shared needs. This is done through multiple funding mechanisms (ie, quadratic funding, direct grants funding, etc) but leverages parts of the Allocation protocol and Passport that help ensure conssitent and reliable results.
+Grants Stack is a dApp built to utilize aspect of Allo, and Passport with the goal of enabling communities to fund their shared needs. This is done through multiple funding mechanisms (ie, quadratic funding, direct grants funding, etc) but leverages parts of the Allocation protocol and Passport that help ensure conssitent and reliable results.
 
-Grants Stack is evaluating revenue models and GTC staking models that would enable grants program managers to use the technology to allocate capital using the developed core primitives (registry, funding  mechanisms, payout strategies). Grants stack seeks to lock up sufficient GTC or charge a sufficient percentage of the funds flowing through the programs that they can be cashflow nuetral by the mid/end of 2024.
+Grants Stack is evaluating revenue models and GTC staking models that would enable grants program managers to use the technology to allocate capital using the developed core primitives (registry, funding  mechanisms, payout strategies). Grants stack seeks to lock up sufficient GTC or charge a sufficient percentage of the funds flowing through the programs that they can be cashflow neutral by the mid/end of 2024.
 
 ### Public Goods Network
-PGN is not directly tied to Gitcoin's tokeneconmics beyond continuing to make funding for public godos available. Said differently, it is with proceeds from PGN that Gitcoin may continue its mission of enabling communities to fund what matter to them.
+PGN is not directly tied to Gitcoin's tokeneconmics beyond continuing to make funding for public goods available. Said differently, it is with proceeds from PGN that Gitcoin may continue its mission of enabling communities to fund what matter to them.
 
+## Barbell Strategy
+
+We are not sure whether (1) taking in proceeds from revenue or (2) GTC Staking is the best model for Gitcoin.
+
+One thing we've discussed is having a barbell strategy.  You can either pay $$$ to use the products (left barbell) or you can stake gtc (right barbell) + become a stakeholder in the ecosystem.
+
+```
+Pay with        GTC 
+$$$$            Staking
+
+◘█━━━━━━━━━━━━━━█◘
+```
+
+Example: Once a fee switch has been turned on, a customer of Grants Stack, Allo, could decide between staking `y*stake_ratio` GTC in order to run a round worth $y... Or they could pay `z*fee_ratio` DAI in order to run a round worth $z... 
 
 ## Reference documents
 
