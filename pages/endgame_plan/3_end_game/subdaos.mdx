@@ -50,9 +50,40 @@ Gitcoin is the Mother DAO.  Governance of Gitcoin = governance of it's protocols
 
 A proposed anchor point for this question would be: 
 
-> w = GTC locked + revenue generated
+> w₁ = GTC_locked + revenue_generated_in_usd
 
-Each product or service DAO has a *weight* determined by this formula. The weight (or expected future weight) governs how much resources go to the subDAO
+In the event that a product is pre-revenue their weight can be determined by 
+
+> w₂ = size_of_subDAO_economy_in_usd
+
+w₁ can we be thought of kinetic energy, w₂ can be thought of as potential energy.  They can be combined as follows
+
+> w₃ = w₂ + w₁
+
+Each product or service DAO has a *weight* determined by this formula. The weight (or expected future weight) governs how much resources can legitimately go to the subDAO.
+
+Weights can also have subweights which can be applied to weighting formulas to change their relative importance of those metrics relative to other metrics.:
+
+> weight_of_gtc_locked = 1 # weight of gtc lock relative to other metrics
+> weight_of_usd_revenue_in = 1 # weight of usd revenue in relative to other metrics
+> weight_of_economy_size = 1 # weight of pre-revenue economies relative to other metrics
+> weight_of_bull_bear = 1 # set higher in a bull market, lower in a bear
+
+Applied to the formulas as follows:
+
+> w₁ = ( GTC_locked * weight_of_gtc_locked ) + ( revenue_generated_in_usd * weight_of_usd_revenue_in )
+> w₂ = ( size_of_subDAO_economy * size_of_subDAO_economy_in_usd )
+> w₃ = w₂ + w₁
+
+In practice, this is used to weigh resources going to different subDAOs.  For example, if there are 3 subDAOs who have 
+
+- w₃(SubDAO A) = 15
+- w₃(SubDAO B) = 80
+- w₃(SubDAO C) = 5
+- w₃(All SubDAOs) = 100
+
+Then SubDAO A would get 15% of funding for that quareter, SubDAO B would get 80%, and so on..
+
 
 #### Tuning parameters on the protocols
 
