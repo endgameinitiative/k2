@@ -65,14 +65,19 @@ Each product or service DAO has a *weight* determined by this formula. The weigh
 Weights can also have subweights which can be applied to weighting formulas to change their relative importance of those metrics relative to other metrics.:
 
 > weight_of_gtc_locked = 1 # weight of gtc lock relative to other metrics
+>
 > weight_of_usd_revenue_in = 1 # weight of usd revenue in relative to other metrics
+>
 > weight_of_economy_size = 1 # weight of pre-revenue economies relative to other metrics
+>
 > weight_of_bull_bear = 1 # set higher in a bull market, lower in a bear
 
 Applied to the formulas as follows:
 
 > w₁ = ( GTC_locked * weight_of_gtc_locked ) + ( revenue_generated_in_usd * weight_of_usd_revenue_in )
+>
 > w₂ = ( size_of_subDAO_economy * size_of_subDAO_economy_in_usd )
+>
 > w₃ = w₂ + w₁
 
 In practice, this is used to weigh resources going to different subDAOs.  For example, if there are 3 subDAOs who have 
