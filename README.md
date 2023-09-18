@@ -1,6 +1,6 @@
 # Endgame
 
-Endgame is a framework for articulating Gitcoin's endgame.  View it at https://k2.endgame.work/
+Endgame is a framework for articulating Gitcoin's endgame.  View it at https://k2.endgame.gitcoin.co/
 
 ## Docs stack
 
